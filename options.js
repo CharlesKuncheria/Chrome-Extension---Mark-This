@@ -2,7 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-  var selectionLength = parseInt(window.localStorage.getItem('additionalSelectionLength'));
+// gets the selection length
+var selectionLength = parseInt(window.localStorage.getItem('additionalSelectionLength'));
 
 for (var i = 0; i < selectionLength; i++) {
    var selection = JSON.parse(window.localStorage.getItem('additionalSelection' + i));
